@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.textos {
+    color: aqua;
+}
+
+.ContenedorTabla {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Celdas {
+    width: 250px;
+    padding: 20px;
+    text-align: left;
+}
+
+.Celdas {
+    background-color: #257388;
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+}
+tr{
+    background-color: rgb(226, 226, 226);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+tr:hover{
+    background-color: rgb(158, 158, 158);
+}
+.filas {
+    padding: 10px;
+}
+
+.centrado{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.733);
+    margin-top:20px;
+}
+
+.fondo{
+    background-image: url('https://images.unsplash.com/photo-1524578271613-d550eacf6090?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+}
+.contenedorBtn{
+    background-color: #257388;
+    margin-right: 20px;
+    height: 100%;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.623) 3px 5px 10px;
+}
+
+input{
+    border: 0px;
+    background-color: rgb(209, 209, 209);
+}
+input:focus{
+    outline: none;
+}
